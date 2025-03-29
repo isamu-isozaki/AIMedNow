@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<!-- Coding By CodingNepal - www.codingnepalweb.com all credit for the UI here-->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>ChatGPT Clone in JavaScript | CodingNepal</title>
+    <title>AIMedNow</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts Link For Icons -->
@@ -11,6 +11,10 @@
     <script src="{{ url_for('static', filename='js/index.js') }}" defer></script>
   </head>
   <body>
+    <button class="ButtonSubmit" id="submitEHR">Submit EHR</button>
+    <input id="EHRImageUpload" type="file" name="file">
+    <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none; width: 20%; height: auto;">
+
     <!-- Chats container -->
     <div class="chat-container"></div>
     

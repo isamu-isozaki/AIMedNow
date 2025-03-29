@@ -25,12 +25,14 @@ def get_answer2question(question):
                 temperature=0.8
     )
     print("Got completion")
+    print(completion)
+
     return completion.choices[0].message.content
 def encode_image(image_path):
     # from https://community.openai.com/t/how-to-load-a-local-image-to-gpt4-vision-using-api/533090/3
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
-def get_answer2question_from_image(base64_image, question, extra_body, temperature=0.5):
+def get_answer2question_from_image(base64_image, question, extra_body={}, temperature=0.5):
     chat_response = client.chat.completions.create(
         model="qwen2-vl",
         messages=[
@@ -53,6 +55,7 @@ def get_answer2question_from_image(base64_image, question, extra_body, temperatu
         temperature=temperature,
         extra_body=extra_body
     )
+    print(chat_response)
     return chat_response.choices[0].message.content
 
 app = Flask(__name__)
@@ -70,9 +73,10 @@ def upload_ehr():
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(filepath)
-            answer = get_answer2question_from_image(encode_image(filepath), "Describe everything medically important in the image.")
+            answer = get_answer2question_from_image(encode_image(filepath), "Describe in 20 words or less what is in the image.")
+            file.close()
+            os.remove(filepath)
             return jsonify({'answer': answer})
-    # For referencing this flask server in the frontend, use a action="http://..../api/predict_tb" in the form
     return '''
     <!doctype html>
     <title>Upload new File</title>

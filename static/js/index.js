@@ -4,6 +4,49 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 let userText = null;
+document.getElementById("submitEHR").onclick = function() {
+    let input = document.getElementById('EHRImageUpload');
+    let data = new FormData();
+    data.append('file', input.files[0]);
+
+    // Display the uploaded image immediately
+    let reader = new FileReader();
+    reader.onload = function(e) {
+        let uploadedImage = document.getElementById("uploadedImage");
+        uploadedImage.src = e.target.result;
+        uploadedImage.style.display = "block";
+    };
+    reader.readAsDataURL(input.files[0]);
+
+    // Show processing message
+
+    const filename = input.files[0].name;
+    const uploadedUrl = "http://localhost:5000/static/" + filename;
+    console.log({uploadedUrl});
+    const url = "http://localhost:5000/api/upload_ehr";
+
+    fetch(url, {
+        method: "POST",
+        body: data
+    }).then(response => response.json())
+    .then(data => {
+        const answer = data.answer;
+        console.log("Got answer " + answer);
+        
+        // Retrieve existing answers from localStorage
+        let ehrAnswers = JSON.parse(localStorage.getItem("EHRAnswers")) || [];
+        
+        // Add the new answer
+        if(answer != "") {
+            ehrAnswers.push(answer);
+        }
+        
+        // Store the updated array back in localStorage
+        localStorage.setItem("EHRAnswers", JSON.stringify(ehrAnswers));
+        
+        console.log("Current answers ", ehrAnswers);
+    });
+};
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
     const themeColor = localStorage.getItem("themeColor");
@@ -27,12 +70,27 @@ const getChatResponse = async (incomingChatDiv) => {
     const API_URL = "http://localhost:5000/api/qna";
     const pElement = document.createElement("p");
     // Define the properties and data for the API request
+    const ehrResponses = JSON.parse(localStorage.getItem("EHRAnswers")) || [];
+    let prompt = ""
+    if(ehrResponses.length > 0) {
+        prompt = "If needed reference the following EHRs to answer the user's question. Ignore if not relevant "
+        let ehrNum = 0;
+        for(let i = 0; i< ehrResponses.length;i++) {
+            if (ehrResponses[i].length == 0){
+                continue;
+            } 
+            prompt += "EHR "+ehrNum+ "\n\n"+ehrResponses[i] + "\n\n"
+            ehrNum++;
+        }
+    }
+    prompt += userText;
+    console.log("Prompt is "+prompt)
     const requestOptions = {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ text: userText })  // Convert the text to JSON
+        body: JSON.stringify({ text: prompt })  // Convert the text to JSON
     }
     // Send POST request to API, get response and set the reponse as paragraph element text
     try {

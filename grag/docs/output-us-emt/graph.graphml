@@ -1,0 +1,910 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="NATIONAL EMERGENCY MEDICAL SERVICES EDUCATION STANDARDS" />
+    <node id="EMERGENCY MEDICAL SERVICES SYSTEM" />
+    <node id="NHTSA TECHNICAL ASSISTANCE PROGRAM" />
+    <node id="STATE EMS OFFICE" />
+    <node id="EMS PERSONNEL" />
+    <node id="EMERGENCY MEDICAL TECHNICIAN" />
+    <node id="OSHA" />
+    <node id="EMR" />
+    <node id="EMS" />
+    <node id="EMT" />
+    <node id="CARDIAC ARREST" />
+    <node id="FIRE" />
+    <node id="EXPLOSIVES" />
+    <node id="COMMUNICABLE DISEASE" />
+    <node id="BLOOD BORNE PATHOGENS" />
+    <node id="STRESS MANAGEMENT" />
+    <node id="DEATH AND DYING" />
+    <node id="DISEASE TRANSMISSION" />
+    <node id="STANDARD PRECAUTIONS" />
+    <node id="HEALTH INFORMATION PORTABILITY AND ACCOUNTABILITY ACT OF 1996 (HIPAA)" />
+    <node id="MULTIPLE-CASUALTY INCIDENTS (MCI)" />
+    <node id="CONTINUITY OF CARE" />
+    <node id="LEGAL DOCUMENT" />
+    <node id="EDUCATIONAL DOCUMENTATION" />
+    <node id="ADMINISTRATIVE DOCUMENTATION" />
+    <node id="RESEARCH DOCUMENTATION" />
+    <node id="EVALUATION AND CONTINUOUS QUALITY IMPROVEMENT" />
+    <node id="PATIENT REFUSAL DOCUMENTATION" />
+    <node id="SPECIAL SITUATION REPORTS" />
+    <node id="EMS SYSTEM" />
+    <node id="BASE STATION" />
+    <node id="MOBILE RADIO" />
+    <node id="PORTABLE RADIO" />
+    <node id="REPEATER" />
+    <node id="DIGITAL RADIO EQUIPMENT" />
+    <node id="CELLULAR TELEPHONE" />
+    <node id="MEDICAL CONTROL" />
+    <node id="DISPATCHER" />
+    <node id="RECEIVING FACILITY" />
+    <node id="HOSPITAL" />
+    <node id="COMMUNICATION EQUIPMENT" />
+    <node id="PATIENT" />
+    <node id="CELLULAR TECHNOLOGIES" />
+    <node id="EMT EDUCATION STANDARD" />
+    <node id="ANATOMY AND PHYSIOLOGY" />
+    <node id="MANDATORY REPORTING" />
+    <node id="STATUTORY RESPONSIBILITIES" />
+    <node id="ETHICAL PRINCIPLE/MORAL OBLIGATIONS" />
+    <node id="EVIDENCE PRESERVATION" />
+    <node id="STANDARD OF CARE" />
+    <node id="PROFESSIONALISM" />
+    <node id="LIABILITY INSURANCE" />
+    <node id="MORALS" />
+    <node id="ETHICS" />
+    <node id="APPLIED ETHICS" />
+    <node id="ETHICAL CONFLICTS" />
+    <node id="EMT INSTRUCTIONAL GUIDELINE" />
+    <node id="EMR LEVEL" />
+    <node id="ALVEOLAR/CAPILLARY GAS EXCHANGE" />
+    <node id="CELL/CAPILLARY GAS EXCHANGE" />
+    <node id="ANAEROBIC METABOLISM" />
+    <node id="AEROBIC METABOLISM" />
+    <node id="HYPOXIA" />
+    <node id="VENTILATION/PERFUSION RATIO" />
+    <node id="HYPERCARBIA" />
+    <node id="PERFUSION" />
+    <node id="SHOCK" />
+    <node id="BLOOD VOLUME" />
+    <node id="CARDIAC OUTPUT" />
+    <node id="GERIATRICS" />
+    <node id="PEDIATRICS" />
+    <node id="OXYGENATION" />
+    <node id="RESPIRATORY COMPROMISE" />
+    <node id="MINUTE VENTILATION" />
+    <node id="AIRWAY OBSTRUCTION" />
+    <node id="PUBLIC HEALTH" />
+    <node id="LATE ADULTHOOD" />
+    <node id="MIDDLE ADULTHOOD" />
+    <node id="PHARMACOLOGY" />
+    <node id="MEDICATION ADMINISTRATION" />
+    <node id="AIRWAY MANAGEMENT" />
+    <node id="NITROGLYCERIN" />
+    <node id="EPINEPHRINE" />
+    <node id="OXYGEN" />
+    <node id="ASPIRIN" />
+    <node id="ORAL GLUCOSE" />
+    <node id="INHALED BRONCHODILATORS" />
+    <node id="TONGUE" />
+    <node id="PHARYNX" />
+    <node id="LARYNX" />
+    <node id="NASOPHARYNX" />
+    <node id="OROPHARYNX" />
+    <node id="LARYNGOPHARYNX" />
+    <node id="EPIGLOTTIS" />
+    <node id="VOCAL CORDS" />
+    <node id="THYROID CARTILAGE" />
+    <node id="CRICOID RING" />
+    <node id="TRACHEA" />
+    <node id="BRONCHI" />
+    <node id="CARINA" />
+    <node id="LUNGS" />
+    <node id="ALVEOLI" />
+    <node id="BRONCHIOLES" />
+    <node id="PULMONARY CAPILLARY BEDS" />
+    <node id="RESPIRATION" />
+    <node id="PULMONARY VENTILATION" />
+    <node id="EXTERNAL RESPIRATION" />
+    <node id="INTERNAL RESPIRATION" />
+    <node id="CELLULAR RESPIRATION" />
+    <node id="PULSE OXIMETER" />
+    <node id="SUPPLEMENTAL OXYGEN THERAPY" />
+    <node id="PORTABLE OXYGEN CYLINDER" />
+    <node id="LIQUID OXYGEN" />
+    <node id="NASAL CANNULA" />
+    <node id="PARTIAL RE-BREATHER FACE MASK" />
+    <node id="NON-REBREATHER" />
+    <node id="TRACHEOSTOMY MASK" />
+    <node id="VENTURI MASK" />
+    <node id="HUMIDIFIERS" />
+    <node id="BAG-VALVE-MASK" />
+    <node id="MANUALLY TRIGGERED VENTILATION DEVICE" />
+    <node id="AUTOMATIC TRANSPORT VENTILATOR/RESUSCITATOR" />
+    <node id="ARTIFICIAL VENTILATION" />
+    <node id="CPR" />
+    <node id="SELICK'S MANEUVER" />
+    <node id="POSITIVE PRESSURE VENTILATION" />
+    <node id="FIRE DEPARTMENT" />
+    <node id="LAW ENFORCEMENT" />
+    <node id="PATIENT ASSESSMENT" />
+    <node id="SCENE SAFETY" />
+    <node id="PEDIATRIC PATIENTS" />
+    <node id="GERIATRIC PATIENTS" />
+    <node id="AMERICAN HEART ASSOCIATION" />
+    <node id="UNIVERSAL PRECAUTIONS" />
+    <node id="CHIEF COMPLAINT" />
+    <node id="HISTORY OF THE PRESENT ILLNESS" />
+    <node id="PAST MEDICAL HISTORY" />
+    <node id="CURRENT HEALTH STATUS" />
+    <node id="TECHNIQUES OF HISTORY TAKING" />
+    <node id="STANDARDIZED APPROACH TO HISTORY-TAKING" />
+    <node id="MEDICAL EVENT" />
+    <node id="SAMPLE HISTORY" />
+    <node id="OPQRST HISTORY" />
+    <node id="ALCOHOL USE" />
+    <node id="DRUG USE" />
+    <node id="PHYSICAL ABUSE" />
+    <node id="SENSITIVE TOPICS" />
+    <node id="VIOLENCE" />
+    <node id="SEXUAL HISTORY" />
+    <node id="PEDIATRIC ASSESSMENT" />
+    <node id="AGE-RELATED VARIATIONS" />
+    <node id="GERIATRIC ASSESSMENT" />
+    <node id="TOBACCO USE" />
+    <node id="PULSE OXIMETRY" />
+    <node id="NON-INVASIVE BLOOD PRESSURE" />
+    <node id="MEDICINE" />
+    <node id="SCENE SIZE-UP" />
+    <node id="PRIMARY ASSESSMENT" />
+    <node id="SECONDARY ASSESSMENT" />
+    <node id="VITAL SIGNS" />
+    <node id="OPQRST" />
+    <node id="OPQRST MNEMONIC" />
+    <node id="STROKE/TIA" />
+    <node id="CINCINNATI PREHOSPITAL STROKE SCALE" />
+    <node id="SEIZURES" />
+    <node id="ALS" />
+    <node id="BRAIN" />
+    <node id="CEREBRAL BLOOD VESSELS" />
+    <node id="MEDICAL JEWELRY" />
+    <node id="RESPONSIVE PATIENT" />
+    <node id="INFECTIOUS DISEASE" />
+    <node id="ANAPHYLAXIS" />
+    <node id="ALLERGIC REACTION" />
+    <node id="DIABETES" />
+    <node id="BRONCHOCONSTRICTION" />
+    <node id="INCREASED CAPILLARY PERMEABILITY" />
+    <node id="VASODILATION" />
+    <node id="INCREASED MUCUS PRODUCTION" />
+    <node id="HYPERGLYCEMIA" />
+    <node id="DIABETIC KETOACIDOSIS" />
+    <node id="HYPERGLYCEMIA/DIABETIC KETOACIDOSIS" />
+    <node id="DIABETIC MEDICATIONS" />
+    <node id="HYPOGLYCEMIA" />
+    <node id="PSYCHIATRIC DISORDER" />
+    <node id="SUICIDE RISK ASSESSMENT" />
+    <node id="AGITATED DELIRIUM" />
+    <node id="PSYCHIATRIC EMERGENCIES" />
+    <node id="CARDIOVASCULAR SYSTEM" />
+    <node id="CARDIAC CYCLE" />
+    <node id="CARDIAC COMPROMISE" />
+    <node id="PULMONARY DISEASE" />
+    <node id="COPD" />
+    <node id="RENAL DISEASE" />
+    <node id="HEART" />
+    <node id="BLOOD" />
+    <node id="ATHEROSCLEROSIS" />
+    <node id="AORTA" />
+    <node id="ARTERIES" />
+    <node id="VEINS" />
+    <node id="VENA CAVA" />
+    <node id="RED BLOOD CELLS" />
+    <node id="WHITE BLOOD CELLS" />
+    <node id="PLATELETS" />
+    <node id="PLASMA" />
+    <node id="ACUTE CORONARY SYNDROMES" />
+    <node id="CARDIOGENIC SHOCK" />
+    <node id="HYPERTENSIVE EMERGENCIES" />
+    <node id="NATIONAL POISON CONTROL CENTER" />
+    <node id="TOXICOLOGY" />
+    <node id="AEMT" />
+    <node id="PARAMEDIC" />
+    <node id="PEDIATRIC" />
+    <node id="GERIATRIC" />
+    <node id="RESPIRATORY SYSTEM" />
+    <node id="MEDICATION OVERDOSE" />
+    <node id="POISONINGS" />
+    <node id="SICKLE CELL CRISIS" />
+    <node id="ASTHMA" />
+    <node id="PULMONARY EDEMA" />
+    <node id="CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)" />
+    <node id="PNEUMONIA" />
+    <node id="SPONTANEOUS PNEUMOTHORAX" />
+    <node id="PULMONARY EMBOLISM" />
+    <node id="PERTUSSIS" />
+    <node id="CYSTIC FIBROSIS" />
+    <node id="RENAL SYSTEM" />
+    <node id="HEMODIALYSIS" />
+    <node id="PERITONEAL DIALYSIS" />
+    <node id="GYNECOLOGY" />
+    <node id="SEXUAL ASSAULT" />
+    <node id="PELVIC INFLAMMATORY DISEASE" />
+    <node id="SEXUALLY TRANSMITTED DISEASES" />
+    <node id="911" />
+    <node id="RESPIRATORY FAILURE" />
+    <node id="RESPIRATORY ARREST" />
+    <node id="BLOOD VESSELS" />
+    <node id="AUTONOMIC NERVOUS SYSTEM" />
+    <node id="CIRCULATION" />
+    <node id="RBCS" />
+    <node id="WBCS" />
+    <node id="CAPILLARY BEDS" />
+    <node id="COMPENSATED SHOCK" />
+    <node id="DECOMPENSATED SHOCK" />
+    <node id="IRREVERSIBLE SHOCK" />
+    <node id="HYPOVOLEMIC SHOCK" />
+    <node id="FLUID LOSS" />
+    <node id="NEUROGENIC SHOCK" />
+    <node id="SEPSIS" />
+    <node id="TRAUMA" />
+    <node id="GAS EXCHANGE" />
+    <node id="NATIONAL TRAUMA TRIAGE PROTOCOL" />
+    <node id="CENTERS FOR DISEASE CONTROL AND PREVENTION" />
+    <node id="NATIONAL EXPERT PANEL ON FIELD TRIAGE" />
+    <node id="GLASGOW COMA SCALE" />
+    <node id="TRAUMA PATIENT" />
+    <node id="TRAUMA CENTER" />
+    <node id="AEROMEDICAL TRANSPORT" />
+    <node id="ALS MUTUAL AID" />
+    <node id="CHEST TRAUMA" />
+    <node id="CHEST TRAUMA ASSESSMENT" />
+    <node id="PRIMARY SURVEY" />
+    <node id="MECHANISM OF INJURY" />
+    <node id="PHYSICAL EXAM" />
+    <node id="INTERNAL BLEEDING" />
+    <node id="EXTERNAL BLEEDING CONTROL" />
+    <node id="ABDOMINAL AND GENITOURINARY TRAUMA" />
+    <node id="CLOSED CHEST INJURY" />
+    <node id="OPEN CHEST INJURY" />
+    <node id="CLOSED ABDOMINAL TRAUMA" />
+    <node id="PENETRATING ABDOMINAL TRAUMA" />
+    <node id="FLAIL CHEST" />
+    <node id="RESPIRATORY DISTRESS" />
+    <node id="PNEUMOTHORAX" />
+    <node id="TENSION PNEUMOTHORAX" />
+    <node id="HEMOTHORAX" />
+    <node id="PERICARDIAL TAMPONADE" />
+    <node id="PASG" />
+    <node id="ACUTE CARE FACILITY" />
+    <node id="BURN INJURY" />
+    <node id="THERMAL BURN" />
+    <node id="INHALATION INJURY" />
+    <node id="CHEMICAL BURN" />
+    <node id="ELECTRICAL BURN" />
+    <node id="RADIATION BURN" />
+    <node id="HYPOTHERMIA" />
+    <node id="HYPOVOLEMIA" />
+    <node id="CIRCUMFERENTIAL BURNS" />
+    <node id="PEDIATRIC CONSIDERATIONS" />
+    <node id="GERIATRIC CONSIDERATIONS" />
+    <node id="MOTOR VEHICLE CRASHES" />
+    <node id="BLUNT TRAUMA" />
+    <node id="FALLS" />
+    <node id="PENETRATING TRAUMA" />
+    <node id="AIRWAY COMPROMISE" />
+    <node id="CERVICAL SPINE INJURY" />
+    <node id="SCALP" />
+    <node id="SKULL" />
+    <node id="NASAL" />
+    <node id="EPISAXIS" />
+    <node id="ZYGOMA/ZYGOMATIC ARCH" />
+    <node id="FACIAL INJURIES" />
+    <node id="ORBITAL" />
+    <node id="EYE INJURIES" />
+    <node id="MAXILLA" />
+    <node id="MANDIBLE" />
+    <node id="BATTLE'S SIGN" />
+    <node id="OPTIC NERVE" />
+    <node id="AIRWAY" />
+    <node id="CAROTID ARTERIES" />
+    <node id="JUGULAR VEINS" />
+    <node id="ESOPHAGUS" />
+    <node id="NECK INJURIES" />
+    <node id="CAROTID ARTERY" />
+    <node id="ALS INTERCEPT" />
+    <node id="AIR MEDICAL TRANSPORT" />
+    <node id="NASAL FRACTURES" />
+    <node id="EYE/ORBITAL INJURIES" />
+    <node id="HEAD INJURY" />
+    <node id="BRAIN INJURY" />
+    <node id="CERVICAL SPINE" />
+    <node id="PEDIATRIC GLASGOW COMA SCALE" />
+    <node id="BRAIN STEM" />
+    <node id="CEREBRUM" />
+    <node id="CEREBRAL SPINAL FLUID" />
+    <node id="MEDULLA" />
+    <node id="CEREBELLUM" />
+    <node id="SPINAL CORD" />
+    <node id="THORACIC SPINE" />
+    <node id="LUMBAR SPINE" />
+    <node id="SPINOUS PROCESS" />
+    <node id="DURA MATER" />
+    <node id="ARACHNOID MATER" />
+    <node id="PIA MATER" />
+    <node id="CONCUSSION" />
+    <node id="CONTUSION" />
+    <node id="EPIDURAL BLEED" />
+    <node id="SUBDURAL BLEED" />
+    <node id="MENINGES" />
+    <node id="BRAIN INJURIES" />
+    <node id="MORBIDITY" />
+    <node id="MORTALITY" />
+    <node id="BRAIN INJURY FOUNDATION" />
+    <node id="SPINAL CORD INJURIES" />
+    <node id="TRAUMA IN PREGNANCY" />
+    <node id="HEAD TRAUMA" />
+    <node id="MOTHER" />
+    <node id="FETUS" />
+    <node id="TRAUMA CENTERS" />
+    <node id="AIR MEDICAL RESOURCES" />
+    <node id="PEDIATRIC PATIENT" />
+    <node id="ELDERLY PATIENT" />
+    <node id="COGNITIVELY IMPAIRED PATIENT" />
+    <node id="ALZHEIMER'S DISEASE" />
+    <node id="DEMENTIA" />
+    <node id="SUBMERSION INCIDENTS" />
+    <node id="HEAT-RELATED ILLNESS" />
+    <node id="COGNITIVE IMPAIRMENT" />
+    <node id="SPINAL TRAUMA" />
+    <node id="COLD-RELATED INJURIES" />
+    <node id="HEAT STROKE" />
+    <node id="NURSING HOME" />
+    <node id="AHA" />
+    <node id="COLD-RELATED ILLNESS" />
+    <node id="UNITED STATES" />
+    <node id="RATTLESNAKE" />
+    <node id="BLACK WIDOW" />
+    <node id="HYMENOPTERA" />
+    <node id="SAMUEL NAMARA" />
+    <node id="ALHAMIA PRISON" />
+    <node id="MEGGIE TAZBAH" />
+    <node id="DURKE BATAGLANI" />
+    <node id="FIRUZABAD" />
+    <node id="SCUBA DIVING" />
+    <node id="DYSBARISM" />
+    <node id="RECOMPRESSION THERAPY" />
+    <node id="ELECTRICAL INJURY" />
+    <node id="LIGHTNING STRIKE" />
+    <node id="MULTI-SYSTEM TRAUMA" />
+    <node id="KINEMATICS OF TRAUMA" />
+    <node id="GOLDEN PERIOD" />
+    <node id="PLATINUM 10 MINUTES" />
+    <node id="BEES, WASPS, AND OTHER STINGS" />
+    <node id="BLAST INJURIES" />
+    <node id="TRAUMA CARE" />
+    <node id="HOSPITAL RESOURCES" />
+    <node id="OBSTETRICS" />
+    <node id="FEMALE REPRODUCTIVE SYSTEM" />
+    <node id="PREGNANCY" />
+    <node id="LABOR AND DELIVERY" />
+    <node id="HIGH-RISK PREGNANCY" />
+    <node id="SPECIAL PATIENT POPULATIONS" />
+    <node id="HEALTH CARE PROVIDER" />
+    <node id="INFANCY" />
+    <node id="TODDLER YEARS" />
+    <node id="GROWTH PLATE" />
+    <node id="CEREBRAL BLOOD FLOW" />
+    <node id="PRESCHOOL YEARS" />
+    <node id="MIDDLE CHILDHOOD YEARS" />
+    <node id="ADOLESCENCE" />
+    <node id="INFANT" />
+    <node id="CHILD" />
+    <node id="PARENT/GUARDIAN" />
+    <node id="PEDIATRIC ASSESSMENT TRIANGLE" />
+    <node id="ABCS" />
+    <node id="CARDIOPULMONARY FAILURE" />
+    <node id="CARDIOVASCULAR SHOCK" />
+    <node id="FOREIGN BODY ASPIRATION" />
+    <node id="BACTERIAL TRACHEITIS" />
+    <node id="EPIGLOTTITIS" />
+    <node id="BRONCHIOLITIS" />
+    <node id="MENINGITIS" />
+    <node id="PEDIATRIC TRAUMA" />
+    <node id="NEUROLOGY" />
+    <node id="MYOCARDIAL INFARCTION" />
+    <node id="HEART FAILURE" />
+    <node id="DELIRIUM" />
+    <node id="NEUROVASCULAR CHANGES IN THE ELDERLY" />
+    <node id="CEREBROVASCULAR ACCIDENTS" />
+    <node id="ELDERLY" />
+    <node id="OSTEOPOROSIS" />
+    <node id="TOXICOLOGICAL EMERGENCIES" />
+    <node id="SENSORY CHANGES" />
+    <node id="ELDER ABUSE" />
+    <node id="BARIATRIC PATIENTS" />
+    <node id="HYPERTENSION" />
+    <node id="HEART DISEASE" />
+    <node id="STROKE" />
+    <node id="HOSPICE CARE" />
+    <node id="AIDS" />
+    <node id="EMS OPERATIONS" />
+    <node id="NATIONAL EMS EDUCATION STANDARDS" />
+    <node id="INCIDENT MANAGEMENT SYSTEM" />
+    <node id="AIR MEDICAL OPERATIONS" />
+    <node id="GLOBAL POSITIONING SYSTEMS" />
+    <node id="FEDERAL HIGHWAY ADMINISTRATION" />
+    <node id="ICS-100" />
+    <node id="FEMA IS-700" />
+    <node id="MULTIPLE CASUALTY INCIDENTS" />
+    <node id="CENTER FOR DISEASE CONTROL" />
+    <node id="VEHICLE EXTRICATION" />
+    <node id="HAZARDOUS MATERIALS AWARENESS" />
+    <node id="MASS CASUALTY INCIDENTS" />
+    <node id="HAZWOPER" />
+    <node id="B-NICE" />
+    <node id="WMD" />
+    <node id="TERRORIST EVENT" />
+    <node id="DISASTER" />
+    <node id="INCIDENT COMMAND SYSTEM" />
+    <edge source="NATIONAL EMERGENCY MEDICAL SERVICES EDUCATION STANDARDS" target="EMERGENCY MEDICAL SERVICES SYSTEM" />
+    <edge source="EMERGENCY MEDICAL SERVICES SYSTEM" target="NHTSA TECHNICAL ASSISTANCE PROGRAM" />
+    <edge source="EMERGENCY MEDICAL SERVICES SYSTEM" target="STATE EMS OFFICE" />
+    <edge source="EMS PERSONNEL" target="EMERGENCY MEDICAL TECHNICIAN" />
+    <edge source="EMS PERSONNEL" target="OSHA" />
+    <edge source="EMERGENCY MEDICAL TECHNICIAN" target="EMR" />
+    <edge source="OSHA" target="EMS" />
+    <edge source="OSHA" target="COMMUNICABLE DISEASE" />
+    <edge source="OSHA" target="BLOOD BORNE PATHOGENS" />
+    <edge source="EMR" target="EMS" />
+    <edge source="EMR" target="EMT" />
+    <edge source="EMR" target="EMT EDUCATION STANDARD" />
+    <edge source="EMS" target="EMT" />
+    <edge source="EMS" target="CARDIAC ARREST" />
+    <edge source="EMS" target="FIRE" />
+    <edge source="EMS" target="EXPLOSIVES" />
+    <edge source="EMS" target="PUBLIC HEALTH" />
+    <edge source="EMS" target="CHIEF COMPLAINT" />
+    <edge source="EMS" target="NATIONAL EMS EDUCATION STANDARDS" />
+    <edge source="EMS" target="HAZWOPER" />
+    <edge source="EMS" target="B-NICE" />
+    <edge source="EMS" target="WMD" />
+    <edge source="EMS" target="TERRORIST EVENT" />
+    <edge source="EMS" target="DISASTER" />
+    <edge source="EMS" target="INCIDENT COMMAND SYSTEM" />
+    <edge source="EMT" target="STRESS MANAGEMENT" />
+    <edge source="EMT" target="DEATH AND DYING" />
+    <edge source="EMT" target="HEALTH INFORMATION PORTABILITY AND ACCOUNTABILITY ACT OF 1996 (HIPAA)" />
+    <edge source="EMT" target="MULTIPLE-CASUALTY INCIDENTS (MCI)" />
+    <edge source="EMT" target="CONTINUITY OF CARE" />
+    <edge source="EMT" target="LEGAL DOCUMENT" />
+    <edge source="EMT" target="EDUCATIONAL DOCUMENTATION" />
+    <edge source="EMT" target="ADMINISTRATIVE DOCUMENTATION" />
+    <edge source="EMT" target="RESEARCH DOCUMENTATION" />
+    <edge source="EMT" target="EVALUATION AND CONTINUOUS QUALITY IMPROVEMENT" />
+    <edge source="EMT" target="PATIENT REFUSAL DOCUMENTATION" />
+    <edge source="EMT" target="SPECIAL SITUATION REPORTS" />
+    <edge source="EMT" target="EMS SYSTEM" />
+    <edge source="EMT" target="MEDICAL CONTROL" />
+    <edge source="EMT" target="DISPATCHER" />
+    <edge source="EMT" target="RECEIVING FACILITY" />
+    <edge source="EMT" target="HOSPITAL" />
+    <edge source="EMT" target="COMMUNICATION EQUIPMENT" />
+    <edge source="EMT" target="PATIENT" />
+    <edge source="EMT" target="CELLULAR TECHNOLOGIES" />
+    <edge source="EMT" target="PUBLIC HEALTH" />
+    <edge source="EMT" target="PHARMACOLOGY" />
+    <edge source="EMT" target="MEDICATION ADMINISTRATION" />
+    <edge source="EMT" target="AIRWAY MANAGEMENT" />
+    <edge source="EMT" target="NITROGLYCERIN" />
+    <edge source="EMT" target="EPINEPHRINE" />
+    <edge source="EMT" target="OXYGEN" />
+    <edge source="EMT" target="ASPIRIN" />
+    <edge source="EMT" target="ORAL GLUCOSE" />
+    <edge source="EMT" target="INHALED BRONCHODILATORS" />
+    <edge source="EMT" target="FIRE DEPARTMENT" />
+    <edge source="EMT" target="LAW ENFORCEMENT" />
+    <edge source="EMT" target="PATIENT ASSESSMENT" />
+    <edge source="EMT" target="SCENE SAFETY" />
+    <edge source="EMT" target="STANDARD PRECAUTIONS" />
+    <edge source="EMT" target="AMERICAN HEART ASSOCIATION" />
+    <edge source="EMT" target="MEDICINE" />
+    <edge source="EMT" target="EMT EDUCATION STANDARD" />
+    <edge source="EMT" target="BURN INJURY" />
+    <edge source="CARDIAC ARREST" target="AMERICAN HEART ASSOCIATION" />
+    <edge source="CARDIAC ARREST" target="RESPIRATORY FAILURE" />
+    <edge source="CARDIAC ARREST" target="SHOCK" />
+    <edge source="CARDIAC ARREST" target="RESPIRATORY ARREST" />
+    <edge source="CARDIAC ARREST" target="ELECTRICAL INJURY" />
+    <edge source="CARDIAC ARREST" target="LIGHTNING STRIKE" />
+    <edge source="DISEASE TRANSMISSION" target="STANDARD PRECAUTIONS" />
+    <edge source="STANDARD PRECAUTIONS" target="UNIVERSAL PRECAUTIONS" />
+    <edge source="EMS SYSTEM" target="BASE STATION" />
+    <edge source="EMS SYSTEM" target="MOBILE RADIO" />
+    <edge source="EMS SYSTEM" target="PORTABLE RADIO" />
+    <edge source="EMS SYSTEM" target="REPEATER" />
+    <edge source="EMS SYSTEM" target="DIGITAL RADIO EQUIPMENT" />
+    <edge source="EMS SYSTEM" target="CELLULAR TELEPHONE" />
+    <edge source="EMS SYSTEM" target="DISPATCHER" />
+    <edge source="EMS SYSTEM" target="COMMUNICATION EQUIPMENT" />
+    <edge source="DISPATCHER" target="HOSPITAL" />
+    <edge source="HOSPITAL" target="PATIENT" />
+    <edge source="EMT EDUCATION STANDARD" target="ANATOMY AND PHYSIOLOGY" />
+    <edge source="EMT EDUCATION STANDARD" target="EMT INSTRUCTIONAL GUIDELINE" />
+    <edge source="EMT EDUCATION STANDARD" target="AIRWAY MANAGEMENT" />
+    <edge source="EMT EDUCATION STANDARD" target="PATIENT ASSESSMENT" />
+    <edge source="EMT EDUCATION STANDARD" target="STROKE/TIA" />
+    <edge source="EMT EDUCATION STANDARD" target="SEIZURES" />
+    <edge source="EMT EDUCATION STANDARD" target="ALS" />
+    <edge source="EMT EDUCATION STANDARD" target="INFECTIOUS DISEASE" />
+    <edge source="EMT EDUCATION STANDARD" target="ANAPHYLAXIS" />
+    <edge source="EMT EDUCATION STANDARD" target="ALLERGIC REACTION" />
+    <edge source="EMT EDUCATION STANDARD" target="DIABETES" />
+    <edge source="EMT EDUCATION STANDARD" target="AMERICAN HEART ASSOCIATION" />
+    <edge source="EMT EDUCATION STANDARD" target="AEMT" />
+    <edge source="EMT EDUCATION STANDARD" target="PARAMEDIC" />
+    <edge source="EMT EDUCATION STANDARD" target="PEDIATRIC" />
+    <edge source="EMT EDUCATION STANDARD" target="GERIATRIC" />
+    <edge source="EMT EDUCATION STANDARD" target="RESPIRATORY SYSTEM" />
+    <edge source="EMT EDUCATION STANDARD" target="MEDICATION OVERDOSE" />
+    <edge source="EMT EDUCATION STANDARD" target="POISONINGS" />
+    <edge source="EMT EDUCATION STANDARD" target="SICKLE CELL CRISIS" />
+    <edge source="EMT EDUCATION STANDARD" target="911" />
+    <edge source="EMT EDUCATION STANDARD" target="TRAUMA PATIENT" />
+    <edge source="EMT EDUCATION STANDARD" target="TRAUMA" />
+    <edge source="EMT EDUCATION STANDARD" target="OBSTETRICS" />
+    <edge source="EMT EDUCATION STANDARD" target="SPECIAL PATIENT POPULATIONS" />
+    <edge source="EMT EDUCATION STANDARD" target="NATIONAL EMS EDUCATION STANDARDS" />
+    <edge source="MANDATORY REPORTING" target="STATUTORY RESPONSIBILITIES" />
+    <edge source="MANDATORY REPORTING" target="ETHICAL PRINCIPLE/MORAL OBLIGATIONS" />
+    <edge source="STATUTORY RESPONSIBILITIES" target="EVIDENCE PRESERVATION" />
+    <edge source="STANDARD OF CARE" target="PROFESSIONALISM" />
+    <edge source="STANDARD OF CARE" target="LIABILITY INSURANCE" />
+    <edge source="MORALS" target="ETHICS" />
+    <edge source="ETHICS" target="APPLIED ETHICS" />
+    <edge source="APPLIED ETHICS" target="ETHICAL CONFLICTS" />
+    <edge source="EMT INSTRUCTIONAL GUIDELINE" target="EMR LEVEL" />
+    <edge source="EMT INSTRUCTIONAL GUIDELINE" target="BRAIN INJURY FOUNDATION" />
+    <edge source="ALVEOLAR/CAPILLARY GAS EXCHANGE" target="CELL/CAPILLARY GAS EXCHANGE" />
+    <edge source="ANAEROBIC METABOLISM" target="AEROBIC METABOLISM" />
+    <edge source="HYPOXIA" target="VENTILATION/PERFUSION RATIO" />
+    <edge source="HYPOXIA" target="BURN INJURY" />
+    <edge source="HYPOXIA" target="PEDIATRIC PATIENT" />
+    <edge source="VENTILATION/PERFUSION RATIO" target="HYPERCARBIA" />
+    <edge source="PERFUSION" target="SHOCK" />
+    <edge source="PERFUSION" target="BLOOD VOLUME" />
+    <edge source="PERFUSION" target="CARDIAC OUTPUT" />
+    <edge source="SHOCK" target="RESPIRATORY FAILURE" />
+    <edge source="SHOCK" target="PEDIATRICS" />
+    <edge source="SHOCK" target="GERIATRICS" />
+    <edge source="SHOCK" target="CIRCULATION" />
+    <edge source="SHOCK" target="TRAUMA" />
+    <edge source="SHOCK" target="BURN INJURY" />
+    <edge source="SHOCK" target="ABCS" />
+    <edge source="GERIATRICS" target="PEDIATRICS" />
+    <edge source="GERIATRICS" target="GYNECOLOGY" />
+    <edge source="GERIATRICS" target="MYOCARDIAL INFARCTION" />
+    <edge source="GERIATRICS" target="HEART FAILURE" />
+    <edge source="GERIATRICS" target="PNEUMONIA" />
+    <edge source="PEDIATRICS" target="GYNECOLOGY" />
+    <edge source="OXYGENATION" target="RESPIRATORY COMPROMISE" />
+    <edge source="OXYGENATION" target="MINUTE VENTILATION" />
+    <edge source="RESPIRATORY COMPROMISE" target="AIRWAY OBSTRUCTION" />
+    <edge source="AIRWAY OBSTRUCTION" target="BURN INJURY" />
+    <edge source="LATE ADULTHOOD" target="MIDDLE ADULTHOOD" />
+    <edge source="AIRWAY MANAGEMENT" target="RESPIRATION" />
+    <edge source="AIRWAY MANAGEMENT" target="ARTIFICIAL VENTILATION" />
+    <edge source="NITROGLYCERIN" target="ACUTE CORONARY SYNDROMES" />
+    <edge source="EPINEPHRINE" target="ANAPHYLAXIS" />
+    <edge source="EPINEPHRINE" target="ALLERGIC REACTION" />
+    <edge source="ASPIRIN" target="ACUTE CORONARY SYNDROMES" />
+    <edge source="TONGUE" target="PHARYNX" />
+    <edge source="PHARYNX" target="LARYNX" />
+    <edge source="PHARYNX" target="NASOPHARYNX" />
+    <edge source="PHARYNX" target="OROPHARYNX" />
+    <edge source="PHARYNX" target="LARYNGOPHARYNX" />
+    <edge source="LARYNX" target="EPIGLOTTIS" />
+    <edge source="LARYNX" target="VOCAL CORDS" />
+    <edge source="LARYNX" target="THYROID CARTILAGE" />
+    <edge source="LARYNX" target="CRICOID RING" />
+    <edge source="LARYNX" target="AIRWAY" />
+    <edge source="EPIGLOTTIS" target="RESPIRATORY SYSTEM" />
+    <edge source="TRACHEA" target="BRONCHI" />
+    <edge source="TRACHEA" target="CARINA" />
+    <edge source="TRACHEA" target="AIRWAY" />
+    <edge source="BRONCHI" target="LUNGS" />
+    <edge source="LUNGS" target="ALVEOLI" />
+    <edge source="LUNGS" target="BRONCHIOLES" />
+    <edge source="ALVEOLI" target="PULMONARY CAPILLARY BEDS" />
+    <edge source="RESPIRATION" target="PULMONARY VENTILATION" />
+    <edge source="RESPIRATION" target="EXTERNAL RESPIRATION" />
+    <edge source="RESPIRATION" target="INTERNAL RESPIRATION" />
+    <edge source="RESPIRATION" target="CELLULAR RESPIRATION" />
+    <edge source="RESPIRATION" target="ARTIFICIAL VENTILATION" />
+    <edge source="RESPIRATION" target="GAS EXCHANGE" />
+    <edge source="PULSE OXIMETER" target="SUPPLEMENTAL OXYGEN THERAPY" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="PORTABLE OXYGEN CYLINDER" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="LIQUID OXYGEN" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="NASAL CANNULA" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="PARTIAL RE-BREATHER FACE MASK" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="NON-REBREATHER" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="TRACHEOSTOMY MASK" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="VENTURI MASK" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="HUMIDIFIERS" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="BAG-VALVE-MASK" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="MANUALLY TRIGGERED VENTILATION DEVICE" />
+    <edge source="SUPPLEMENTAL OXYGEN THERAPY" target="AUTOMATIC TRANSPORT VENTILATOR/RESUSCITATOR" />
+    <edge source="CPR" target="SELICK'S MANEUVER" />
+    <edge source="SELICK'S MANEUVER" target="POSITIVE PRESSURE VENTILATION" />
+    <edge source="PATIENT ASSESSMENT" target="PEDIATRIC PATIENTS" />
+    <edge source="PATIENT ASSESSMENT" target="GERIATRIC PATIENTS" />
+    <edge source="PATIENT ASSESSMENT" target="PULSE OXIMETRY" />
+    <edge source="PATIENT ASSESSMENT" target="NON-INVASIVE BLOOD PRESSURE" />
+    <edge source="PATIENT ASSESSMENT" target="SCENE SIZE-UP" />
+    <edge source="PATIENT ASSESSMENT" target="PRIMARY ASSESSMENT" />
+    <edge source="PATIENT ASSESSMENT" target="SECONDARY ASSESSMENT" />
+    <edge source="PATIENT ASSESSMENT" target="VITAL SIGNS" />
+    <edge source="PATIENT ASSESSMENT" target="SAMPLE HISTORY" />
+    <edge source="PATIENT ASSESSMENT" target="OPQRST" />
+    <edge source="SCENE SAFETY" target="BURN INJURY" />
+    <edge source="AMERICAN HEART ASSOCIATION" target="ACUTE CORONARY SYNDROMES" />
+    <edge source="AMERICAN HEART ASSOCIATION" target="CARDIOGENIC SHOCK" />
+    <edge source="AMERICAN HEART ASSOCIATION" target="HYPERTENSIVE EMERGENCIES" />
+    <edge source="AMERICAN HEART ASSOCIATION" target="TRAUMA" />
+    <edge source="CHIEF COMPLAINT" target="HISTORY OF THE PRESENT ILLNESS" />
+    <edge source="PAST MEDICAL HISTORY" target="CURRENT HEALTH STATUS" />
+    <edge source="CURRENT HEALTH STATUS" target="ALCOHOL USE" />
+    <edge source="CURRENT HEALTH STATUS" target="DRUG USE" />
+    <edge source="CURRENT HEALTH STATUS" target="TOBACCO USE" />
+    <edge source="TECHNIQUES OF HISTORY TAKING" target="STANDARDIZED APPROACH TO HISTORY-TAKING" />
+    <edge source="MEDICAL EVENT" target="SAMPLE HISTORY" />
+    <edge source="MEDICAL EVENT" target="OPQRST HISTORY" />
+    <edge source="PHYSICAL ABUSE" target="SENSITIVE TOPICS" />
+    <edge source="SENSITIVE TOPICS" target="VIOLENCE" />
+    <edge source="SENSITIVE TOPICS" target="SEXUAL HISTORY" />
+    <edge source="PEDIATRIC ASSESSMENT" target="AGE-RELATED VARIATIONS" />
+    <edge source="AGE-RELATED VARIATIONS" target="GERIATRIC ASSESSMENT" />
+    <edge source="SCENE SIZE-UP" target="PRIMARY SURVEY" />
+    <edge source="OPQRST MNEMONIC" target="STROKE/TIA" />
+    <edge source="STROKE/TIA" target="CINCINNATI PREHOSPITAL STROKE SCALE" />
+    <edge source="STROKE/TIA" target="BRAIN" />
+    <edge source="STROKE/TIA" target="CEREBRAL BLOOD VESSELS" />
+    <edge source="SEIZURES" target="MENINGITIS" />
+    <edge source="ALS" target="PASG" />
+    <edge source="ALS" target="INHALATION INJURY" />
+    <edge source="ALS" target="MOTHER" />
+    <edge source="BRAIN" target="MENINGES" />
+    <edge source="MEDICAL JEWELRY" target="RESPONSIVE PATIENT" />
+    <edge source="ANAPHYLAXIS" target="NEUROGENIC SHOCK" />
+    <edge source="ANAPHYLAXIS" target="BEES, WASPS, AND OTHER STINGS" />
+    <edge source="ALLERGIC REACTION" target="BRONCHOCONSTRICTION" />
+    <edge source="ALLERGIC REACTION" target="INCREASED CAPILLARY PERMEABILITY" />
+    <edge source="ALLERGIC REACTION" target="VASODILATION" />
+    <edge source="ALLERGIC REACTION" target="INCREASED MUCUS PRODUCTION" />
+    <edge source="DIABETES" target="HYPERGLYCEMIA" />
+    <edge source="DIABETES" target="DIABETIC KETOACIDOSIS" />
+    <edge source="DIABETES" target="BARIATRIC PATIENTS" />
+    <edge source="HYPERGLYCEMIA/DIABETIC KETOACIDOSIS" target="DIABETIC MEDICATIONS" />
+    <edge source="DIABETIC MEDICATIONS" target="HYPOGLYCEMIA" />
+    <edge source="PSYCHIATRIC DISORDER" target="SUICIDE RISK ASSESSMENT" />
+    <edge source="AGITATED DELIRIUM" target="PSYCHIATRIC EMERGENCIES" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="CARDIAC CYCLE" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="CARDIAC COMPROMISE" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="PULMONARY DISEASE" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="COPD" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="RENAL DISEASE" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="HEART" />
+    <edge source="CARDIOVASCULAR SYSTEM" target="BLOOD" />
+    <edge source="CARDIAC COMPROMISE" target="ATHEROSCLEROSIS" />
+    <edge source="HEART" target="AORTA" />
+    <edge source="HEART" target="ARTERIES" />
+    <edge source="HEART" target="VEINS" />
+    <edge source="HEART" target="VENA CAVA" />
+    <edge source="HEART" target="BLOOD VESSELS" />
+    <edge source="HEART" target="AUTONOMIC NERVOUS SYSTEM" />
+    <edge source="HEART" target="CARDIOGENIC SHOCK" />
+    <edge source="HEART" target="CIRCULATION" />
+    <edge source="BLOOD" target="RED BLOOD CELLS" />
+    <edge source="BLOOD" target="WHITE BLOOD CELLS" />
+    <edge source="BLOOD" target="PLATELETS" />
+    <edge source="BLOOD" target="PLASMA" />
+    <edge source="ARTERIES" target="CAPILLARY BEDS" />
+    <edge source="VEINS" target="CAPILLARY BEDS" />
+    <edge source="PLATELETS" target="PLASMA" />
+    <edge source="PLASMA" target="RBCS" />
+    <edge source="PLASMA" target="WBCS" />
+    <edge source="NATIONAL POISON CONTROL CENTER" target="TOXICOLOGY" />
+    <edge source="PEDIATRIC" target="RESPIRATORY SYSTEM" />
+    <edge source="PEDIATRIC" target="TRAUMA CENTER" />
+    <edge source="GERIATRIC" target="RESPIRATORY SYSTEM" />
+    <edge source="GERIATRIC" target="TRAUMA CENTER" />
+    <edge source="RESPIRATORY SYSTEM" target="ASTHMA" />
+    <edge source="RESPIRATORY SYSTEM" target="PULMONARY EDEMA" />
+    <edge source="RESPIRATORY SYSTEM" target="CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)" />
+    <edge source="RESPIRATORY SYSTEM" target="PNEUMONIA" />
+    <edge source="RESPIRATORY SYSTEM" target="SPONTANEOUS PNEUMOTHORAX" />
+    <edge source="RESPIRATORY SYSTEM" target="PULMONARY EMBOLISM" />
+    <edge source="RESPIRATORY SYSTEM" target="PERTUSSIS" />
+    <edge source="RESPIRATORY SYSTEM" target="CYSTIC FIBROSIS" />
+    <edge source="ASTHMA" target="RESPIRATORY DISTRESS" />
+    <edge source="PNEUMONIA" target="RESPIRATORY DISTRESS" />
+    <edge source="PULMONARY EMBOLISM" target="DEMENTIA" />
+    <edge source="PULMONARY EMBOLISM" target="DELIRIUM" />
+    <edge source="PERTUSSIS" target="RESPIRATORY DISTRESS" />
+    <edge source="RENAL SYSTEM" target="HEMODIALYSIS" />
+    <edge source="RENAL SYSTEM" target="PERITONEAL DIALYSIS" />
+    <edge source="GYNECOLOGY" target="SEXUAL ASSAULT" />
+    <edge source="GYNECOLOGY" target="PELVIC INFLAMMATORY DISEASE" />
+    <edge source="GYNECOLOGY" target="SEXUALLY TRANSMITTED DISEASES" />
+    <edge source="SEXUAL ASSAULT" target="TRAUMA CENTER" />
+    <edge source="BLOOD VESSELS" target="AUTONOMIC NERVOUS SYSTEM" />
+    <edge source="COMPENSATED SHOCK" target="DECOMPENSATED SHOCK" />
+    <edge source="DECOMPENSATED SHOCK" target="IRREVERSIBLE SHOCK" />
+    <edge source="HYPOVOLEMIC SHOCK" target="FLUID LOSS" />
+    <edge source="NEUROGENIC SHOCK" target="SEPSIS" />
+    <edge source="TRAUMA" target="NATIONAL TRAUMA TRIAGE PROTOCOL" />
+    <edge source="TRAUMA" target="ABDOMINAL AND GENITOURINARY TRAUMA" />
+    <edge source="TRAUMA" target="CLOSED CHEST INJURY" />
+    <edge source="TRAUMA" target="OPEN CHEST INJURY" />
+    <edge source="TRAUMA" target="CLOSED ABDOMINAL TRAUMA" />
+    <edge source="TRAUMA" target="PENETRATING ABDOMINAL TRAUMA" />
+    <edge source="TRAUMA" target="BRAIN INJURIES" />
+    <edge source="TRAUMA" target="MORBIDITY" />
+    <edge source="TRAUMA" target="MORTALITY" />
+    <edge source="TRAUMA" target="PEDIATRIC PATIENT" />
+    <edge source="TRAUMA" target="ELDERLY PATIENT" />
+    <edge source="TRAUMA" target="COGNITIVELY IMPAIRED PATIENT" />
+    <edge source="TRAUMA" target="SUBMERSION INCIDENTS" />
+    <edge source="TRAUMA" target="HEAT-RELATED ILLNESS" />
+    <edge source="TRAUMA" target="COGNITIVE IMPAIRMENT" />
+    <edge source="TRAUMA" target="MULTI-SYSTEM TRAUMA" />
+    <edge source="TRAUMA" target="KINEMATICS OF TRAUMA" />
+    <edge source="TRAUMA" target="BLUNT TRAUMA" />
+    <edge source="TRAUMA" target="PENETRATING TRAUMA" />
+    <edge source="NATIONAL TRAUMA TRIAGE PROTOCOL" target="CENTERS FOR DISEASE CONTROL AND PREVENTION" />
+    <edge source="CENTERS FOR DISEASE CONTROL AND PREVENTION" target="NATIONAL EXPERT PANEL ON FIELD TRIAGE" />
+    <edge source="GLASGOW COMA SCALE" target="TRAUMA PATIENT" />
+    <edge source="GLASGOW COMA SCALE" target="HEAD INJURY" />
+    <edge source="GLASGOW COMA SCALE" target="TRAUMA CENTER" />
+    <edge source="GLASGOW COMA SCALE" target="PEDIATRIC GLASGOW COMA SCALE" />
+    <edge source="GLASGOW COMA SCALE" target="GERIATRIC CONSIDERATIONS" />
+    <edge source="TRAUMA CENTER" target="AEROMEDICAL TRANSPORT" />
+    <edge source="TRAUMA CENTER" target="ALS MUTUAL AID" />
+    <edge source="TRAUMA CENTER" target="CHEST TRAUMA" />
+    <edge source="TRAUMA CENTER" target="ACUTE CARE FACILITY" />
+    <edge source="AEROMEDICAL TRANSPORT" target="CHEST TRAUMA" />
+    <edge source="CHEST TRAUMA" target="CHEST TRAUMA ASSESSMENT" />
+    <edge source="PRIMARY SURVEY" target="MECHANISM OF INJURY" />
+    <edge source="PRIMARY SURVEY" target="PHYSICAL EXAM" />
+    <edge source="INTERNAL BLEEDING" target="EXTERNAL BLEEDING CONTROL" />
+    <edge source="FLAIL CHEST" target="RESPIRATORY DISTRESS" />
+    <edge source="RESPIRATORY DISTRESS" target="PNEUMOTHORAX" />
+    <edge source="RESPIRATORY DISTRESS" target="TENSION PNEUMOTHORAX" />
+    <edge source="RESPIRATORY DISTRESS" target="HEMOTHORAX" />
+    <edge source="RESPIRATORY DISTRESS" target="PERICARDIAL TAMPONADE" />
+    <edge source="RESPIRATORY DISTRESS" target="BACTERIAL TRACHEITIS" />
+    <edge source="RESPIRATORY DISTRESS" target="EPIGLOTTITIS" />
+    <edge source="RESPIRATORY DISTRESS" target="BRONCHIOLITIS" />
+    <edge source="BURN INJURY" target="THERMAL BURN" />
+    <edge source="BURN INJURY" target="INHALATION INJURY" />
+    <edge source="BURN INJURY" target="CHEMICAL BURN" />
+    <edge source="BURN INJURY" target="ELECTRICAL BURN" />
+    <edge source="BURN INJURY" target="RADIATION BURN" />
+    <edge source="BURN INJURY" target="HYPOTHERMIA" />
+    <edge source="BURN INJURY" target="HYPOVOLEMIA" />
+    <edge source="BURN INJURY" target="CIRCUMFERENTIAL BURNS" />
+    <edge source="BURN INJURY" target="PEDIATRIC CONSIDERATIONS" />
+    <edge source="BURN INJURY" target="GERIATRIC CONSIDERATIONS" />
+    <edge source="HYPOTHERMIA" target="COLD-RELATED INJURIES" />
+    <edge source="HYPOTHERMIA" target="PEDIATRIC PATIENT" />
+    <edge source="MOTOR VEHICLE CRASHES" target="BLUNT TRAUMA" />
+    <edge source="BLUNT TRAUMA" target="FALLS" />
+    <edge source="PENETRATING TRAUMA" target="AIRWAY COMPROMISE" />
+    <edge source="AIRWAY COMPROMISE" target="CERVICAL SPINE INJURY" />
+    <edge source="SCALP" target="SKULL" />
+    <edge source="SKULL" target="BATTLE'S SIGN" />
+    <edge source="NASAL" target="EPISAXIS" />
+    <edge source="ZYGOMA/ZYGOMATIC ARCH" target="FACIAL INJURIES" />
+    <edge source="FACIAL INJURIES" target="MAXILLA" />
+    <edge source="FACIAL INJURIES" target="MANDIBLE" />
+    <edge source="ORBITAL" target="EYE INJURIES" />
+    <edge source="EYE INJURIES" target="OPTIC NERVE" />
+    <edge source="CAROTID ARTERIES" target="JUGULAR VEINS" />
+    <edge source="JUGULAR VEINS" target="CAROTID ARTERY" />
+    <edge source="ESOPHAGUS" target="NECK INJURIES" />
+    <edge source="ALS INTERCEPT" target="AIR MEDICAL TRANSPORT" />
+    <edge source="NASAL FRACTURES" target="EYE/ORBITAL INJURIES" />
+    <edge source="HEAD INJURY" target="BRAIN INJURY" />
+    <edge source="HEAD INJURY" target="CERVICAL SPINE" />
+    <edge source="CERVICAL SPINE" target="SPINAL CORD" />
+    <edge source="BRAIN STEM" target="CEREBRUM" />
+    <edge source="BRAIN STEM" target="CEREBRAL SPINAL FLUID" />
+    <edge source="BRAIN STEM" target="MEDULLA" />
+    <edge source="CEREBRUM" target="CEREBELLUM" />
+    <edge source="CEREBRUM" target="CEREBRAL SPINAL FLUID" />
+    <edge source="SPINAL CORD" target="THORACIC SPINE" />
+    <edge source="SPINAL CORD" target="LUMBAR SPINE" />
+    <edge source="SPINAL CORD" target="SPINOUS PROCESS" />
+    <edge source="DURA MATER" target="ARACHNOID MATER" />
+    <edge source="ARACHNOID MATER" target="PIA MATER" />
+    <edge source="CONCUSSION" target="CONTUSION" />
+    <edge source="EPIDURAL BLEED" target="SUBDURAL BLEED" />
+    <edge source="SPINAL CORD INJURIES" target="TRAUMA IN PREGNANCY" />
+    <edge source="SPINAL CORD INJURIES" target="HEAD TRAUMA" />
+    <edge source="TRAUMA IN PREGNANCY" target="HEAD TRAUMA" />
+    <edge source="MOTHER" target="FETUS" />
+    <edge source="MOTHER" target="TRAUMA CENTERS" />
+    <edge source="MOTHER" target="AIR MEDICAL RESOURCES" />
+    <edge source="AIR MEDICAL RESOURCES" target="MULTI-SYSTEM TRAUMA" />
+    <edge source="PEDIATRIC PATIENT" target="HEALTH CARE PROVIDER" />
+    <edge source="PEDIATRIC PATIENT" target="INFANCY" />
+    <edge source="PEDIATRIC PATIENT" target="TODDLER YEARS" />
+    <edge source="PEDIATRIC PATIENT" target="GROWTH PLATE" />
+    <edge source="PEDIATRIC PATIENT" target="CEREBRAL BLOOD FLOW" />
+    <edge source="ALZHEIMER'S DISEASE" target="DEMENTIA" />
+    <edge source="ALZHEIMER'S DISEASE" target="HOSPICE CARE" />
+    <edge source="DEMENTIA" target="DELIRIUM" />
+    <edge source="DEMENTIA" target="NEUROVASCULAR CHANGES IN THE ELDERLY" />
+    <edge source="DEMENTIA" target="CEREBROVASCULAR ACCIDENTS" />
+    <edge source="SUBMERSION INCIDENTS" target="SPINAL TRAUMA" />
+    <edge source="HEAT-RELATED ILLNESS" target="HEAT STROKE" />
+    <edge source="HEAT-RELATED ILLNESS" target="AHA" />
+    <edge source="COGNITIVE IMPAIRMENT" target="NURSING HOME" />
+    <edge source="AHA" target="COLD-RELATED ILLNESS" />
+    <edge source="UNITED STATES" target="RATTLESNAKE" />
+    <edge source="RATTLESNAKE" target="HYMENOPTERA" />
+    <edge source="BLACK WIDOW" target="HYMENOPTERA" />
+    <edge source="SAMUEL NAMARA" target="ALHAMIA PRISON" />
+    <edge source="SAMUEL NAMARA" target="MEGGIE TAZBAH" />
+    <edge source="SAMUEL NAMARA" target="DURKE BATAGLANI" />
+    <edge source="SAMUEL NAMARA" target="FIRUZABAD" />
+    <edge source="MEGGIE TAZBAH" target="DURKE BATAGLANI" />
+    <edge source="MEGGIE TAZBAH" target="FIRUZABAD" />
+    <edge source="DURKE BATAGLANI" target="FIRUZABAD" />
+    <edge source="SCUBA DIVING" target="DYSBARISM" />
+    <edge source="DYSBARISM" target="RECOMPRESSION THERAPY" />
+    <edge source="ELECTRICAL INJURY" target="LIGHTNING STRIKE" />
+    <edge source="MULTI-SYSTEM TRAUMA" target="BLAST INJURIES" />
+    <edge source="MULTI-SYSTEM TRAUMA" target="TRAUMA CARE" />
+    <edge source="MULTI-SYSTEM TRAUMA" target="HOSPITAL RESOURCES" />
+    <edge source="GOLDEN PERIOD" target="PLATINUM 10 MINUTES" />
+    <edge source="OBSTETRICS" target="FEMALE REPRODUCTIVE SYSTEM" />
+    <edge source="OBSTETRICS" target="PREGNANCY" />
+    <edge source="OBSTETRICS" target="LABOR AND DELIVERY" />
+    <edge source="OBSTETRICS" target="HIGH-RISK PREGNANCY" />
+    <edge source="HEALTH CARE PROVIDER" target="PRESCHOOL YEARS" />
+    <edge source="HEALTH CARE PROVIDER" target="MIDDLE CHILDHOOD YEARS" />
+    <edge source="HEALTH CARE PROVIDER" target="ADOLESCENCE" />
+    <edge source="HEALTH CARE PROVIDER" target="INFANT" />
+    <edge source="HEALTH CARE PROVIDER" target="CHILD" />
+    <edge source="HEALTH CARE PROVIDER" target="PARENT/GUARDIAN" />
+    <edge source="INFANT" target="PARENT/GUARDIAN" />
+    <edge source="CHILD" target="PARENT/GUARDIAN" />
+    <edge source="PEDIATRIC ASSESSMENT TRIANGLE" target="ABCS" />
+    <edge source="ABCS" target="CARDIOPULMONARY FAILURE" />
+    <edge source="ABCS" target="CARDIOVASCULAR SHOCK" />
+    <edge source="ABCS" target="FOREIGN BODY ASPIRATION" />
+    <edge source="PEDIATRIC TRAUMA" target="NEUROLOGY" />
+    <edge source="ELDERLY" target="OSTEOPOROSIS" />
+    <edge source="ELDERLY" target="TOXICOLOGICAL EMERGENCIES" />
+    <edge source="ELDERLY" target="SENSORY CHANGES" />
+    <edge source="ELDERLY" target="ELDER ABUSE" />
+    <edge source="BARIATRIC PATIENTS" target="HYPERTENSION" />
+    <edge source="BARIATRIC PATIENTS" target="HEART DISEASE" />
+    <edge source="BARIATRIC PATIENTS" target="STROKE" />
+    <edge source="HOSPICE CARE" target="AIDS" />
+    <edge source="EMS OPERATIONS" target="NATIONAL EMS EDUCATION STANDARDS" />
+    <edge source="EMS OPERATIONS" target="INCIDENT MANAGEMENT SYSTEM" />
+    <edge source="EMS OPERATIONS" target="AIR MEDICAL OPERATIONS" />
+    <edge source="EMS OPERATIONS" target="GLOBAL POSITIONING SYSTEMS" />
+    <edge source="EMS OPERATIONS" target="FEDERAL HIGHWAY ADMINISTRATION" />
+    <edge source="EMS OPERATIONS" target="VEHICLE EXTRICATION" />
+    <edge source="EMS OPERATIONS" target="HAZARDOUS MATERIALS AWARENESS" />
+    <edge source="EMS OPERATIONS" target="MASS CASUALTY INCIDENTS" />
+    <edge source="INCIDENT MANAGEMENT SYSTEM" target="ICS-100" />
+    <edge source="INCIDENT MANAGEMENT SYSTEM" target="FEMA IS-700" />
+    <edge source="MULTIPLE CASUALTY INCIDENTS" target="CENTER FOR DISEASE CONTROL" />
+    <edge source="TERRORIST EVENT" target="DISASTER" />
+  </graph>
+</graphml>

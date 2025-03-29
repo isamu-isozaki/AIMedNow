@@ -10,14 +10,14 @@ from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 load_dotenv()
-client = OpenAI(base_url="https://api.blockentropy.ai/v1", api_key=os.getenv("API_KEY"))
+client = OpenAI(base_url=os.getenv("API_URL"), api_key=os.getenv("API_KEY"))
 UPLOAD_FOLDER = './upload_images'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 def get_answer2question(question):
     print("Got question: ", question)
     completion = client.chat.completions.create(
-                model="be-70b-instruct-llama3.3",
+                model="qwen2-vl",
                 messages=[
                     {'role': 'system', 'content': 'You are an expert in answering questions based on the provided context.'},
                     {'role': 'system', 'content': question}
@@ -32,7 +32,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 def get_answer2question_from_image(base64_image, question, extra_body, temperature=0.5):
     chat_response = client.chat.completions.create(
-        model=".cache/models--Qwen--Qwen2-VL-7B-Instruct-GPTQ-Int4/snapshots/dec510a35a3e9b6481b6427c7a08984df2402535/",
+        model="qwen2-vl",
         messages=[
             {
                 "role": "system",
@@ -96,6 +96,7 @@ def qna():
 
     try:
         response = get_answer2question(question)
+        print("Response is ", response)
         return jsonify({'answer': response}), 200
     
     except Exception as e:

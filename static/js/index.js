@@ -11,11 +11,11 @@ document.getElementById("submitEHR").onclick = function() {
 
     // Display the uploaded image immediately
     let reader = new FileReader();
-    reader.onload = function(e) {
-        let uploadedImage = document.getElementById("uploadedImage");
-        uploadedImage.src = e.target.result;
-        uploadedImage.style.display = "block";
-    };
+    // reader.onload = function(e) {
+    //     let uploadedImage = document.getElementById("uploadedImage");
+    //     uploadedImage.src = e.target.result;
+    //     uploadedImage.style.display = "block";
+    // };
     reader.readAsDataURL(input.files[0]);
 
     // Show processing message

@@ -14,15 +14,16 @@ client = OpenAI(base_url=os.getenv("API_URL"), api_key=os.getenv("API_KEY"))
 UPLOAD_FOLDER = './upload_images'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
+print(os.getenv("MODEL_NAME"))
 def get_answer2question(question):
     print("Got question: ", question)
     completion = client.chat.completions.create(
-                model="qwen2-vl",
+                model=os.getenv("MODEL_NAME"),
                 messages=[
                     {'role': 'system', 'content': 'You are an expert in answering questions based on the provided context.'},
                     {'role': 'system', 'content': question}
                 ],
-                temperature=0.8
+                temperature=1.0
     )
     print("Got completion")
     print(completion)
@@ -32,9 +33,9 @@ def encode_image(image_path):
     # from https://community.openai.com/t/how-to-load-a-local-image-to-gpt4-vision-using-api/533090/3
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
-def get_answer2question_from_image(base64_image, question, extra_body={}, temperature=0.5):
+def get_answer2question_from_image(base64_image, question, extra_body={}, temperature=1.0):
     chat_response = client.chat.completions.create(
-        model="qwen2-vl",
+        model=os.getenv("MODEL_NAME"),
         messages=[
             {
                 "role": "system",

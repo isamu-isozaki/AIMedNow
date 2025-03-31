@@ -253,3 +253,363 @@ span.material-symbols-rounded {
     font-size: 1.25rem!important;
   }
 }
+
+
+#attach-btn {
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#attach-btn:hover {
+  background: var(--icon-hover-bg);
+}
+
+/* Ensure all control buttons have consistent spacing */
+.typing-controls span {
+  margin-left: 7px;
+  font-size: 1.4rem;
+  background: var(--incoming-chat-bg);
+  outline: 1px solid var(--incoming-chat-border);
+}
+
+/* File attachment display */
+.file-attachment {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px 8px;
+  background: var(--incoming-chat-bg);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  max-width: fit-content;
+}
+
+.file-attachment .material-symbols-rounded {
+  font-size: 1rem;
+  margin-right: 5px;
+  color: var(--icon-color);
+}
+
+/* Base file attachment styles */
+.file-attachment {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: var(--incoming-chat-bg);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: 1px solid var(--incoming-chat-border);
+  max-width: 280px;
+}
+
+.file-attachment .material-symbols-rounded {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: var(--icon-color);
+}
+
+.file-attachment .filename {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Compact image preview styles */
+.compact-image {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.image-thumbnail {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.image-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.compact-image .file-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0; /* Allows text truncation to work properly */
+}
+
+/* In dark mode, add a subtle border to light images */
+body:not(.light-mode) .image-thumbnail {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* In light mode, add a subtle border to all thumbnails */
+body.light-mode .image-thumbnail {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-banner {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 15px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.markdown-content {
+  line-height: 1.5;
+}
+
+.markdown-content h1, 
+.markdown-content h2, 
+.markdown-content h3, 
+.markdown-content h4, 
+.markdown-content h5, 
+.markdown-content h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.markdown-content ul, 
+.markdown-content ol {
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+.markdown-content code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.markdown-content pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1em;
+  color: #777;
+}
+
+.markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.markdown-content th, 
+.markdown-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.markdown-content th {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.emergency-notice {
+  display: block;
+  margin-top: 15px;
+  padding: 8px 12px;
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  font-style: italic;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.light-mode .emergency-notice {
+  background-color: rgba(231, 76, 60, 0.1);
+}
+
+/* Add a space between the emergency notice and the actual response */
+.emergency-notice + .markdown-content {
+  margin-top: 10px;
+}
+
+
+/* Doctor Note Container Styling */
+.doctor-note-container {
+  margin: 15px 0;
+  border: 1px solid var(--incoming-chat-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--incoming-chat-bg);
+}
+
+.doctor-note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--incoming-chat-border);
+}
+
+.light-mode .doctor-note-header {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.doctor-note-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.toggle-container {
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--incoming-chat-border);
+}
+
+.toggle-btn {
+  padding: 6px 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.toggle-btn.active {
+  background-color: var(--icon-color);
+  color: white;
+}
+
+.note-content {
+  position: relative;
+  padding: 15px;
+}
+
+.note-text {
+  display: none;
+  line-height: 1.5;
+}
+
+.note-text.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Medical term definitions styling */
+.note-text em {
+  font-style: normal;
+  color: #4a6fa5;
+}
+
+.light-mode .note-text em {
+  color: #3a5a8c;
+}
+
+/* Medical jargon definitions in brackets */
+.note-text strong {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+/* Section headings in the simplified content */
+.note-text h4 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: var(--text-color);
+  font-size: 1.05rem;
+  border-bottom: 1px solid var(--incoming-chat-border);
+  padding-bottom: 5px;
+}
+
+/* Lists in the doctor note content */
+.note-text ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.note-text li {
+  margin-bottom: 8px;
+}
+
+/* Highlight important information */
+.note-text .important {
+  background-color: rgba(255, 238, 186, 0.5);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.light-mode .note-text .important {
+  background-color: rgba(255, 238, 186, 0.8);
+}
+
+/* Medical term definition tooltips */
+.medical-term {
+  border-bottom: 1px dotted var(--icon-color);
+  cursor: help;
+  position: relative;
+}
+
+.medical-term .definition {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.85rem;
+}
+
+.medical-term:hover .definition {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Mobile responsiveness for doctor note container */
+@media screen and (max-width: 600px) {
+  .doctor-note-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .toggle-container {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+  
+  .toggle-btn {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+}

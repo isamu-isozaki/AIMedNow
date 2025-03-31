@@ -10,11 +10,11 @@ from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 from emergency_classifier import process_question_sync
+from doctor_note_processor import process_doctor_note
 
 load_dotenv()
 
-client = OpenAI(#base_url=os.getenv("API_URL"), 
-                api_key=os.getenv("GRAPHRAG_API_KEY"))
+client = OpenAI(api_key=os.getenv("GRAPHRAG_API_KEY"))
 
 client_model = "gpt-4o"  #"qwen2-vl"
 
@@ -71,10 +71,37 @@ def upload_ehr():
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(filepath)
-            answer = get_answer2question_from_image(encode_image(filepath), "Describe in 100 words or less what is in the image.")
+            
+            # Get base64 encoded image
+            base64_image = encode_image(filepath)
+            
+            # First get a general description of the image
+            initial_description = get_answer2question_from_image(
+                base64_image, 
+                "Describe in 100 words or less what is in the image."
+            )
+            
+            # Check if the image is a doctor's note and process it if it is
+            doc_note_result = process_doctor_note(base64_image, initial_description)
+            
+            # If it's a doctor's note, return the processed information
+            if doc_note_result.get("is_doctor_note", False):
+                response = {
+                    'answer': initial_description,
+                    'is_doctor_note': True,
+                    'original_text': doc_note_result["original_text"],
+                    'simplified_text': doc_note_result["simplified_text"]
+                }
+            else:
+                # If it's not a doctor's note, just return the initial description
+                response = {
+                    'answer': initial_description,
+                    'is_doctor_note': False
+                }
+            
             file.close()
             os.remove(filepath)
-            return jsonify({'answer': answer})
+            return jsonify(response)
     return '''
     <!doctype html>
     <title>Upload new File</title>
@@ -117,7 +144,6 @@ def qna():
         return jsonify({'error': str(e), 'answer': "I'm sorry, I encountered an error processing your question."}), 500
 
 
-
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -141,4 +167,3 @@ if __name__ == '__main__':
         print("Install with: pip install nest_asyncio")
 
     app.run(debug=True)
-    # app.run(debug=True, static_files={'/static': './generated/'})

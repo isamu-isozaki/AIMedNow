@@ -43,7 +43,7 @@ async def main():
     print(f"Custom search response: {response}")
     
     # You can reuse the same engine instance for multiple queries
-    response = await engine.search("What are the symptoms of a severe burn?")
+    response = await engine.search("What to do if i was bitten by a snake")
     print(f"Follow-up query response: {response}")
 
 if __name__ == "__main__":

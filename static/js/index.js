@@ -135,7 +135,7 @@ const getChatResponse = async (incomingChatDiv) => {
     }
     prompt += userText;
     console.log("Prompt is "+prompt)
-    
+
     const requestOptions = {
         method: "POST",
         headers: {

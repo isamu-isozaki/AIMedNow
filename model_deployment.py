@@ -22,13 +22,13 @@ UPLOAD_FOLDER = './upload_images'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
-
 def encode_image(image_path):
     # from https://community.openai.com/t/how-to-load-a-local-image-to-gpt4-vision-using-api/533090/3
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
-    
+
 def get_answer2question_from_image(base64_image, question, extra_body=None, temperature=0.5):
+
     chat_response = client.chat.completions.create(
         model=os.getenv("MODEL_NAME"),
         messages=[
@@ -71,7 +71,7 @@ def upload_ehr():
             filename = secure_filename(file.filename)
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(filepath)
-            
+
             # Get base64 encoded image
             base64_image = encode_image(filepath)
             
@@ -102,6 +102,7 @@ def upload_ehr():
             file.close()
             os.remove(filepath)
             return jsonify(response)
+
     return '''
     <!doctype html>
     <title>Upload new File</title>

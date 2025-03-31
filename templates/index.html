@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <title>AIMedNow</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts Link For Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="{{ url_for('static', filename='js/index.js') }}" defer></script>
   </head>
   <body>
-    <button class="ButtonSubmit" id="submitEHR">Submit EHR</button>
-    <input id="EHRImageUpload" type="file" name="file">
 
     <!-- Chats container -->
     <div class="chat-container"></div>
@@ -25,6 +25,9 @@
           <span id="send-btn" class="material-symbols-rounded">send</span>
         </div>
         <div class="typing-controls">
+          <span id="attach-btn" class="material-symbols-rounded">attach_file</span>
+          <input type="file" id="attachment-input" accept="*/*" style="display: none;">
+          
           <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
           <span id="delete-btn" class="material-symbols-rounded">delete</span>
       </div>

@@ -77,13 +77,25 @@ const loadDataFromLocalstorage = () => {
     const defaultText = `<div class="default-text">
                             <h1>AIMedNow</h1>
                             <p>Start a conversation and explore AI-powered medical assistance.<br> Your chat history will be displayed here.</p>
-                        </div>`
+                        </div>`;
     chatContainer.innerHTML = localStorage.getItem("all-chats") || defaultText;
     chatContainer.scrollTo(0, chatContainer.scrollHeight); // Scroll to bottom of the chat container
     
     // Add event listeners for doctor note toggle buttons
     document.querySelectorAll('.toggle-btn').forEach(btn => {
         btn.addEventListener('click', handleToggleView);
+    });
+    
+    // Reattach event listeners for sources toggle buttons
+    document.querySelectorAll('.sources-toggle-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const sourcesContent = this.nextElementSibling;
+            sourcesContent.classList.toggle('hidden');
+            const isHidden = sourcesContent.classList.contains('hidden');
+            const icon = isHidden ? "expand_more" : "expand_less";
+            const text = isHidden ? "Show Sources" : "Hide Sources";
+            this.innerHTML = `<span class="material-symbols-rounded">${icon}</span> <span>${text}</span>`;
+        });
     });
 }
 
@@ -114,6 +126,8 @@ const createChatElement = (content, className) => {
     chatDiv.innerHTML = content;
     return chatDiv; // Return the created chat div
 }
+
+// Modified getChatResponse function for index.js
 
 const getChatResponse = async (incomingChatDiv) => {
     const API_URL = "http://localhost:5000/api/qna";
@@ -154,14 +168,51 @@ const getChatResponse = async (incomingChatDiv) => {
         
         // Check if this is classified as an emergency and add notice at the bottom if so
         if (response.classification === "emergency") {
-            // todo make below sources prettier
-            pElement.innerHTML =  marked.parse(response.answer.trim()) + marked.parse("\n\nSources: \n"+ response.source.trim());
-            pElement.classList.add('markdown-content');
+            // Create main content
+            const mainContent = document.createElement("div");
+            mainContent.innerHTML = marked.parse(response.answer.trim());
+            mainContent.classList.add('markdown-content');
+            pElement.innerHTML = ''; // Clear previous content
+            pElement.appendChild(mainContent);
+            
+            // Create sources section
+            if (response.source && response.source.trim()) {
+                // Create container for sources
+                const sourcesDiv = document.createElement("div");
+                sourcesDiv.className = "sources-section";
+                
+                // Create toggle button
+                const toggleBtn = document.createElement("button");
+                toggleBtn.type = "button";
+                toggleBtn.className = "sources-toggle-btn";
+                toggleBtn.innerHTML = '<span class="material-symbols-rounded">expand_more</span> <span>Show Sources</span>';
+                
+                // Create content container (initially hidden)
+                const sourcesContent = document.createElement("div");
+                sourcesContent.className = "sources-content hidden";
+                sourcesContent.innerHTML = marked.parse(response.source.trim());
+                
+                // Add click event to toggle button
+                toggleBtn.addEventListener("click", function() {
+                    sourcesContent.classList.toggle("hidden");
+                    const isHidden = sourcesContent.classList.contains("hidden");
+                    const icon = isHidden ? "expand_more" : "expand_less";
+                    const text = isHidden ? "Show Sources" : "Hide Sources";
+                    this.innerHTML = `<span class="material-symbols-rounded">${icon}</span> <span>${text}</span>`;
+                });
+                
+                // Append elements to sources div
+                sourcesDiv.appendChild(toggleBtn);
+                sourcesDiv.appendChild(sourcesContent);
+                
+                // Add sources div to parent element
+                pElement.appendChild(sourcesDiv);
+            }
+            
+            // Add emergency notice
             const emergencyNotice = document.createElement("em");
             emergencyNotice.classList.add("emergency-notice");
             emergencyNotice.textContent = "This question appears to involve a medical or safety emergency. If you need immediate assistance in the USA: Call 911. If someone is in danger, please seek professional help immediately";
-            
-            // Add the emergency notice after the main content
             pElement.appendChild(emergencyNotice);
         }
         
@@ -179,6 +230,18 @@ const getChatResponse = async (incomingChatDiv) => {
     // Add event listeners for any newly created doctor note toggle buttons
     document.querySelectorAll('.toggle-btn').forEach(btn => {
         btn.addEventListener('click', handleToggleView);
+    });
+    
+    // Re-attach event listeners for sources toggle buttons (for persistence after localStorage reload)
+    document.querySelectorAll('.sources-toggle-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const sourcesContent = this.nextElementSibling;
+            sourcesContent.classList.toggle('hidden');
+            const isHidden = sourcesContent.classList.contains('hidden');
+            const icon = isHidden ? "expand_more" : "expand_less";
+            const text = isHidden ? "Show Sources" : "Hide Sources";
+            this.innerHTML = `<span class="material-symbols-rounded">${icon}</span> <span>${text}</span>`;
+        });
     });
 }
 

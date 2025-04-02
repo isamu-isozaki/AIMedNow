@@ -613,3 +613,61 @@ body.light-mode .image-thumbnail {
     font-size: 0.8rem;
   }
 }
+/* Sources section styling */
+.sources-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px solid var(--incoming-chat-border);
+  padding-top: 10px;
+}
+
+/* Sources toggle button styling */
+.sources-toggle-btn {
+  display: flex !important;
+  align-items: center;
+  background-color: var(--incoming-chat-bg);
+  border: 1px solid var(--incoming-chat-border);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+  visibility: visible !important;
+}
+
+.sources-toggle-btn:hover {
+  background-color: var(--icon-hover-bg);
+}
+
+.sources-toggle-btn .material-symbols-rounded {
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+
+/* Sources content styling */
+.sources-content {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 5px;
+  border: 1px solid var(--incoming-chat-border);
+}
+
+.light-mode .sources-content {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Add a bit of margin before emergency notice */
+.sources-section + .emergency-notice {
+  margin-top: 15px;
+}
+
+/* Hidden class for toggling content visibility */
+.hidden {
+  display: none !important;
+}

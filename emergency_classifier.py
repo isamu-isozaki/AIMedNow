@@ -84,10 +84,10 @@ class EmergencyResponseSystem:
         """Get response from GraphRAG for emergency questions."""
         try:
             # Use GraphRAG for emergency responses
-            response = await self.engine.search(question)
+            search_result = await self.engine.search(question)
             return {
-                'answer': response,
-                'source': 'graphrag',
+                'answer': search_result.response,
+                'source': search_result.context_text,
                 'classification': 'emergency'
             }
         except Exception as e:

@@ -186,10 +186,10 @@ class GraphRAGSearchEngine:
             query: The user's question
             
         Returns:
-            str: The response from the search engine
+            SearchResult: The response from the search engine
         """
         result = await self.search_engine.search(query)
-        return result.response
+        return result
     
     def update_search_params(
         self, 
@@ -227,5 +227,5 @@ async def query_graphrag(question: str) -> str:
         str: The response from the search engine
     """
     engine = GraphRAGSearchEngine()
-    response = await engine.search(question)
+    response = (await engine.search(question)).response
     return response

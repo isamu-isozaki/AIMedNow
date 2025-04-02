@@ -154,6 +154,9 @@ const getChatResponse = async (incomingChatDiv) => {
         
         // Check if this is classified as an emergency and add notice at the bottom if so
         if (response.classification === "emergency") {
+            // todo make below sources prettier
+            pElement.innerHTML = marked.parse("Sources: \n"+ response.source.trim());
+            pElement.classList.add('markdown-content');
             const emergencyNotice = document.createElement("em");
             emergencyNotice.classList.add("emergency-notice");
             emergencyNotice.textContent = "This question appears to involve a medical or safety emergency. If you need immediate assistance in the USA: Call 911. If someone is in danger, please seek professional help immediately";
